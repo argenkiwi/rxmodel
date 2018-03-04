@@ -1,1 +1,1 @@
-include ':rxmodel', ':example'
+include ':library', ':example'

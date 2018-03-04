@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/argenkiwi/rxmodel.svg)](https://jitpack.io/#argenkiwi/rxmodel)
 
 # rxmodel
-Reactive model is a minimal set of classes and interfaces which provide abstrations for Events and State as reactive streams. This is the product of experimentation with the Lifecycle Extension of the Architecture Components library combined with concepts taken from libraries like [Redux](https://github.com/reactjs/redux) and [CycleJS](https://github.com/cyclejs/cyclejs).
+RxModel consists of a minimal set of classes and an interface which provide abstractions for Events and State as reactive streams. This library is the product of experimentation with the Lifecycle Extensions of the Architecture Components library combined with concepts taken from libraries like [Redux](https://github.com/reactjs/redux) and [CycleJS](https://github.com/cyclejs/cyclejs).
 
 # Installation
 
@@ -19,6 +19,6 @@ Then add the following dependencies to your application's `build.gradle` file:
 ````groovy
 dependencies {
     implementation 'io.reactivex.rxjava2:rxjava:2.+'
-    implementation 'com.github.argenkiwi:rxmodel:1.0'
+    implementation 'com.github.argenkiwi:rxmodel:1.1.0'
 }
 ````
