@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RxModel.iml" filepath="$PROJECT_DIR$/RxModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxmodel/rxmodel.iml" filepath="$PROJECT_DIR$/rxmodel/rxmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxmodel.iml" filepath="$PROJECT_DIR$/rxmodel.iml" />
+      <module fileurl="file://C:\Users\Leandro\Documents\GitHub\rxmodel\rxmodel\rxmodel.iml" filepath="C:\Users\Leandro\Documents\GitHub\rxmodel\rxmodel\rxmodel.iml" />
+      <module fileurl="file://C:\Users\Leandro\Documents\GitHub\rxmodel\library\rxmodel-rxmodel.iml" filepath="C:\Users\Leandro\Documents\GitHub\rxmodel\library\rxmodel-rxmodel.iml" />
+      <module fileurl="file://C:\Users\Leandro\Documents\GitHub\rxmodel\rxmodel\rxmodel-rxmodel.iml" filepath="C:\Users\Leandro\Documents\GitHub\rxmodel\rxmodel\rxmodel-rxmodel.iml" />
     </modules>
   </component>
 </project>
