@@ -1,9 +1,9 @@
 package nz.co.vilemob.rxmodel.example
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.TextView
 
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.liveState.observe(this, Observer { state ->
             state?.apply {
-                findViewById<TextView>(R.id.countTextView).setText(getString(R.string.count, count))
+                findViewById<TextView>(R.id.countTextView).text = getString(R.string.count, count)
             }
         })
 
